@@ -2,7 +2,7 @@
 
 **Target Rating Mean (Config):** 3.5
 
-## synthetic_reviews
+## synthetic_reviews (Ministral)
 - **Total Samples:** 400
 - **Mean Rating:** 3.45
 - **Mean Word Count:** 244.0
@@ -17,7 +17,7 @@
   - *Sentiment Mismatch:* 1
   - *Low Quality (Spam/Short):* 3
 
-## synthetic_reviews_2
+## synthetic_reviews (RWKV)
 - **Total Samples:** 400
 - **Mean Rating:** 3.43
 - **Mean Word Count:** 172.0
