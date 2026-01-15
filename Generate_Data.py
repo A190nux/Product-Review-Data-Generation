@@ -19,7 +19,7 @@ def configure_lm(model_choice):
         print("Configuring for Ministral-8B...")
         lm = dspy.LM(
             'ollama_chat/ministral-3:8b', 
-            api_base='http://192.168.1.101:11434',
+            api_base='http://127.0.0.1:11434',
             cache=False,
             num_ctx=2048,
             temperature=0.7
@@ -28,8 +28,8 @@ def configure_lm(model_choice):
         print("Configuring for RWKV-7...")
         lm = dspy.LM(
             'openai/rwkv-7',
-            api_base='http://192.168.1.101:8000/v1',
-            api_key='sk-any-key',
+            api_base='http://127.0.0.1:8000/v1',
+            api_key='key',
             cache=False,
             temperature=0.7,
             max_tokens=2048
