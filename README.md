@@ -53,7 +53,7 @@ python compare_results.py \
 
 ## Initial Design
 
-![Review_Data_Generation_Plan.jpg]
+![Initial Plan](Review_Data_Generation_Plan.jpg)
 
 The idea is to make two nodes, a generator node that would take as input the following:
 **Inputs:**
@@ -135,7 +135,7 @@ The evaluator processes the generated batch using the following criteria:
 
 ## Results
 
-![comparison_report.png]
+![Comparisons](comparison_report.png)
 
 ### Detailed Quality Report
 
