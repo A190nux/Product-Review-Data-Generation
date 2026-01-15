@@ -1,0 +1,121 @@
+{
+  "project_metadata": {
+    "name": "Canva Synthetic Review Generator",
+    "version": "0.1",
+    "domain": "Design Software / SaaS",
+    "target_product": "Canva"
+  },
+  "core_product_definition": {
+    "official_name": "Canva Visual Suite 2.0",
+    "branding_category": "Creative Operating System",
+    "core_mission": "To empower the world to design anything and publish anywhere.",
+    "primary_functional_pillars": {
+      "digital_workspace": "Docs, Whiteboards, Presentations, and 'Canva Sheets' (AI-powered spreadsheets).",
+      "visual_content": "Social media graphics, Video editing (Video 2.0), and Photo editing.",
+      "professional_design": "Vector editing via the 'Affinity' integration for pro-grade precision.",
+      "web_and_interactive": "One-click Websites and 'Canva Code' for building mini-apps/calculators without coding.",
+      "print_services": "Physical fulfillment for business cards, apparel, and marketing materials."
+    },
+    "key_innovation": "Magic Studio – A unified AI ecosystem that understands design hierarchy, branding, and layering."
+  },
+  "sampling_parameters": {
+    "rating_distribution": {
+      "mean": 3.5,
+      "std_dev": 1.1,
+      "min": 1,
+      "max": 5,
+      "logic": "Gaussian distribution clipped to 1-5 scale"
+    }
+  },
+  "product_knowledge_base": {
+    "vibe": "Snappy, colorful, sometimes overwhelming with template choices; 'magical' but occasionally feels like a 'walled garden'.",
+    "ui_elements": {
+      "primary": ["Magic Switch button", "Elements tab search bar", "Brand Hub/Kit palette", "Floating contextual toolbar", "The 'Share' button"],
+      "hidden_or_complex": ["The 'Layers' panel (nested in Position menu)", "The 'Home' button (hidden in sub-menus)", "Bleed and Crop mark toggles"],
+      "visual_identifiers": ["Magenta smart guides", "Sparkle (AI) icon", "Gold Crown (Pro) icon", "Collaborative cursors"]
+    },
+    "technical_capabilities": {
+      "pros": ["One-click Background Remover", "Real-time cloud auto-save", "Instant mockups", "Vector editing via Affinity integration"],
+      "cons": ["Layer management lag", "Shortcut confusion (Grouping/Ungrouping)", "High-res video rendering time", "Mobile app workspace cramping"]
+    }
+  },
+  "persona_buckets": {
+    "roles": [
+      "Small Business Owner (Focus on ROI, speed, and printing menus/cards)",
+      "Social Media Manager (High-volume 'Magic Switch' user for bulk content)",
+      "Adobe Defector (Professional designer; cynical about subscription models and Affinity acquisition)",
+      "High School Teacher (Focus on lesson plans, student engagement, and worksheets)",
+      "Gen-Z Creator (Aesthetic-focused; uses 'Notes App Chic' or 'Reality Warp' trends)",
+      "Corporate Employee (Focus on slide decks, charts, and real-time collaboration)",
+      "The Hobbyist (Making casual invites or social stories; price-sensitive)"
+    ],
+    "skill_levels": [
+      "Absolute Beginner (Relies 100% on templates; scared of blank pages)",
+      "Intermediate (Uses Brand Kits, custom fonts, and layering)",
+      "Power User (Experiments with Canva Code, APIs, and complex animations)",
+      "Professional (Used to Illustrator; finds Canva's simplicity restrictive)"
+    ],
+    "writing_styles": [
+      "Emoji-heavy & Enthusiastic (Use 3+ emojis, exclamation points)",
+      "Concise & Bullet-pointed (Pros/Cons structure; no fluff)",
+      "Informal/All-lowercase (Gen-Z style; 'vibes', 'aesthetic')",
+      "Rant-heavy (Long paragraphs; focused on billing or UI changes)",
+      "Verbose Storyteller (Explains exactly what they were making and why)",
+      "Highly Critical/Nitpicker (Focuses on 1px misalignments or lag)",
+      "Grandparent-style (Polite, slightly confused by new buttons, mentions 'the help')"
+    ],
+    "platforms": ["Desktop Browser (Chrome/Safari)", "iPad/Tablet App", "Mobile App (iOS/Android)"]
+  },
+  "review_themes_matrix": [
+    {
+      "topic": "Magic Studio (AI Tools)",
+      "keywords": ["Magic Write", "Magic Expand", "Magic Eraser", "Text-to-Video"],
+      "pros": "Magic Eraser feels like Photoshop; Magic Expand saves poorly cropped photos.",
+      "cons": "AI images look 'uncanny' (weird hands/eyes); Video resolution is too low for professional use."
+    },
+    {
+      "topic": "Subscription & Billing",
+      "keywords": ["Pro trial", "Unexpected charge", "Auto-renewal", "Tier pricing"],
+      "pros": "Great value for teams compared to Creative Cloud.",
+      "cons": "Difficult to cancel; unexpected charges after free trial; pricing spikes for small teams."
+    },
+    {
+      "topic": "Print Services",
+      "keywords": ["Business cards", "Bleed marks", "Shipping", "Paper stock"],
+      "pros": "Business cards arrived fast (3 days); Wedding invites look premium.",
+      "cons": "Blurry graduation cards; Colors don't match screen; T-shirt print cracked after one wash."
+    },
+    {
+      "topic": "The 2025/2026 UI Redesign",
+      "keywords": ["New sidebar", "Home button location", "Navigation", "Clutter"],
+      "pros": "Cleaner, more modern aesthetic; faster loading for heavy files.",
+      "cons": "Too many clicks to find basic tools; sidebar 'hangs' or lags; animation defaults are annoying."
+    },
+    {
+      "topic": "Collaboration & Data",
+      "keywords": ["Real-time editing", "Comments", "Shared folders", "Charts"],
+      "pros": "Seeing teammates' cursors is seamless; Charts look professional.",
+      "cons": "Version history is hard to navigate; Team permissions are confusing for guests."
+    },
+    {
+      "topic": "Customer Support",
+      "keywords": ["Support bot", "Email response", "Refund", "Help center"],
+      "pros": "Resolved my refund in 24 hours via email.",
+      "cons": "Stuck in endless bot loops; unhelpful generic responses telling me to 'clear cache'."
+    }
+  ],
+  "sentiment_and_emotion": {
+    "1_2_star_triggers": {
+      "emotions": ["Frustrated", "Feeling scammed", "Annoyed", "Let down"],
+      "focus": ["Billing issues", "Technical crashes", "Support failure", "Print quality errors"]
+    },
+    "3_star_triggers": {
+      "emotions": ["Indifferent", "Confused", "Mixed feelings", "Satisfied but bored"],
+      "focus": ["UI clutter", "Pricing vs. Value", "Features are 'just okay'", "Learning curve"]
+    },
+    "4_5_star_triggers": {
+      "emotions": ["Empowered", "Delighted", "Efficient", "Relieved"],
+      "focus": ["Time-saving", "Magic AI tools", "Brand consistency", "Ease of use"]
+    }
+  }
+}
